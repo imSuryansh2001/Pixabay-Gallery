@@ -39,8 +39,8 @@ const ImageSearch = ({searchText}) => {
     <h1 id="pixabay" className='text-center font-semibold text-white pb-4 pt-3 bg-[#02BE6E] md:text-4xl text-3xl'>Pixabay</h1>
         <div className='flex justify-center bg-[#02BE6E] p-8 w-[100%]'>
             <form onSubmit={onSubmit} >
-                <input onChange={s=>setText(s.target.value)} autocomplete="off" className='outline-none rounded-tl-md rounded-bl-md placeholder:text-center placeholder:tracking-[0.1rem] text-center py-1 w-[60vw] md:w-[40vw] lg:w-[30vw] bg-gray-100' type="text" placeholder='Search Image...'/>
-                <button className='bg-[#262e4f] rounded-tr-md rounded-br-md text-white px-4 py-1' type='submit'>Search</button>
+                <input onChange={s=>setText(s.target.value)} autocomplete="off" className='outline-none rounded-tl-md rounded-bl-md placeholder:text-center placeholder:tracking-[0.1rem] text-center py-1 w-[55vw] md:w-[40vw] lg:w-[30vw] bg-gray-100' type="text" placeholder='Search Image...'/>
+                <button className='bg-[#262e4f] rounded-tr-md rounded-br-md text-white px-2 py-1' type='submit'>Search</button>
             </form>
         </div>
 
